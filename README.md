@@ -2,7 +2,7 @@
 
 Yaml to JavaScript parser test with fetching files from Nexus Repository
 
-- Get YAML for nexus repo with api : https://repository.sonatype.org/nexus-restlet1x-plugin/default/docs/path__artifact_maven_redirect.html
+- Get YAML for nexus repo with nexus api
 - Convert yaml to JSON
 - Process YAML to dowload binary files
  
