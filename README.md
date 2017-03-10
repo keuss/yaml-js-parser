@@ -6,7 +6,6 @@ Yaml to JavaScript parser test with fetching files from Nexus Repository
 - Convert yaml to JSON
 - Process YAML to dowload binary files
  
- 
  ```
  application:
   java:
