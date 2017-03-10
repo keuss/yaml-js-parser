@@ -24,18 +24,18 @@ Yaml to JavaScript Object parser test with fetching files from Nexus Repository
 
 ```
 application:
-java:
-  tomcat:
-    components:
-    - artifact:
-        group_id: com.foo
-        artifact_id: bar
-        version: 1.15.0
-        type: war
-    - artifact:
-        group_id: com.foo
-        artifact_id: bar-conf
-        version: 1.15.0
-        type: zip
-        classifier: template
+  java:
+    tomcat:
+      components:
+      - artifact:
+          group_id: com.foo
+          artifact_id: bar
+          version: 1.15.0
+          type: war
+      - artifact:
+          group_id: com.foo
+          artifact_id: bar-conf
+          version: 1.15.0
+          type: zip
+          classifier: template
 ```
