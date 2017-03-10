@@ -3,7 +3,7 @@
 Yaml to JavaScript Object parser test with fetching files from Nexus Repository
 
 - Get YAML for nexus repo with nexus api : https://repository.sonatype.org/nexus-restlet1x-plugin/default/docs/path__artifact_maven_redirect.html
-- Convert yaml to JSON
+- Convert yaml to JSON (with js-yaml lib, see : http://nodeca.github.io/js-yaml/)
 - Process YAML Object to fetch binaries from the yaml file
 
 ## basic execution with node
