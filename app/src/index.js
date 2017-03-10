@@ -2,7 +2,6 @@
 const httpreq = require('httpreq');
 const yaml = require('js-yaml');
 const fs = require('fs');
-const readJSON = require('read-json');
 const sleep = require('system-sleep');
 const NEXUS_BASE_URL = "http://hostname/nexus/service/local/artifact/maven/redirect?r=central-all";
 
