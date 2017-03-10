@@ -10,32 +10,32 @@ Yaml to JavaScript Object parser test with fetching files from Nexus Repository
 
 `node app/src/index.js`
  
- ## npm dependencies
+## npm dependencies
  
+```
+"dependencies": {
+   "httpreq": "0.4.23",
+   "js-yaml": "3.8.2",
+   "system-sleep": "1.3.0"
+ }
  ```
- "dependencies": {
-    "httpreq": "0.4.23",
-    "js-yaml": "3.8.2",
-    "system-sleep": "1.3.0"
-  }
-  ```
  
- ## yaml file example :
+## yaml file example :
  
- ```
- application:
-  java:
-    tomcat:
-      components:
-      - artifact:
-          group_id: com.foo
-          artifact_id: bar
-          version: 1.15.0
-          type: war
-      - artifact:
-          group_id: com.foo
-          artifact_id: bar-conf
-          version: 1.15.0
-          type: zip
-          classifier: template
+```
+application:
+ java:
+   tomcat:
+     components:
+     - artifact:
+         group_id: com.foo
+         artifact_id: bar
+         version: 1.15.0
+         type: war
+     - artifact:
+         group_id: com.foo
+         artifact_id: bar-conf
+         version: 1.15.0
+         type: zip
+         classifier: template
  ```
