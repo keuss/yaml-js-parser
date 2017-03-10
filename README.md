@@ -6,6 +6,16 @@ Yaml to JavaScript Object parser test with fetching files from Nexus Repository
 - Convert yaml to JSON
 - Process YAML Object to fetch binary files in the yaml file
  
+ ## npm dependencies
+ 
+ ```
+ "dependencies": {
+    "httpreq": "0.4.23",
+    "js-yaml": "3.8.2",
+    "read-json": "1.0.3",
+    "system-sleep": "1.3.0"
+  }
+  ```
  
  ## Yaml example :
  
